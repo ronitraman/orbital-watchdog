@@ -1,0 +1,11 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Python
+__pycache__/
+*.pyc
+geo_state.json
+
+# OS
+.DS_Store
