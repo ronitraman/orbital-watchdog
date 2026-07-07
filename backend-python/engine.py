@@ -4,10 +4,12 @@ from datetime import datetime
 
 def generate_geospatial_data():
     # Target coordinates for our three primary research zones
+    # Target coordinates for our primary research zones
     regions = [
         {"id": "amazon_basin", "name": "Amazon Rainforest", "lat": -3.4653, "lng": -62.2159, "type": "deforestation"},
-        {"id": "aral_sea", "name": "Aral Sea", "lat": 45.3953, "lng": 59.6122, "type": "water_depletion"},
-        {"id": "las_vegas", "name": "Las Vegas", "lat": 36.1699, "lng": -115.1398, "type": "urban_sprawl"}
+        {"id": "indian_ocean", "name": "Indian Ocean Basin", "lat": -10.2145, "lng": 73.1256, "type": "coral_bleaching"},
+        {"id": "new_delhi", "name": "New Delhi NCR", "lat": 28.6139, "lng": 77.2090, "type": "urban_sprawl"},
+        {"id": "italy_riva", "name": "Riva del Garda", "lat": 45.8845, "lng": 10.8414, "type": "water_level_fluctuation"}
     ]
 
     payload = []
